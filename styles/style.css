@@ -170,6 +170,53 @@
     border: none;
 }
 
+/* Plant Lover Section Styling */
+.plant-lover {
+    position: relative;
+    margin-top: 210px;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.plant-lover-img,
+.plant-lover-content {
+    max-width: 540px;
+
+}
+
+.plant-lover-img img {
+    width: 100%;
+}
+
+.trust-badge {
+    width: 286px;
+    height: 288px;
+    position: absolute;
+    left: 347px;
+    top: -127px;
+
+}
+
+.trust-badge img {
+    width: 100%;
+    height: 100%;
+}
+
+.plant-lover-title {
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.plant-lover-description {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
 
 /* Mobile devices */
 @media screen and (max-width:572px) {
@@ -212,9 +259,7 @@
     }
 
     .plant-description {
-
         font-size: 14px;
-
     }
 
     /* Card responsive */
@@ -228,5 +273,30 @@
     .card-btn {
         padding: 19px 34px;
     }
+
+
+    /* Plant Lover Section responsive */
+    .trust-badge {
+        display: none;
+    }
+
+    .plant-lover {
+        flex-direction: column;
+        margin: 40px 15px 0 20px;
+
+    }
+
+    .plant-lover-content {
+        padding: 18px;
+    }
+
+    .plant-lover-title {
+        font-size: 24px;
+    }
+
+    .plant-lover-description {
+        font-size: 14px;
+    }
+
 
 }
