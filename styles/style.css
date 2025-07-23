@@ -99,6 +99,73 @@
     font-size: 22px;
 }
 
+/* Our Plant Section */
+
+.our-plant {
+    margin-top: 120px;
+
+}
+
+.plant-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plant-title {
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.plant-description {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+
+}
+
+/* Cards */
+
+.plant-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-title {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #111111;
+    margin-bottom: 30px;
+}
+
+.card img {
+    margin-bottom: 30px;
+
+}
+
+.card-btn {
+    padding: 19px 80px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: none;
+}
+
 
 /* Mobile devices */
 @media screen and (max-width:572px) {
@@ -108,8 +175,8 @@
         display: none;
     }
 
-    .nav-section{
-        padding:0 16px 0;
+    .nav-section {
+        padding: 0 16px 0;
     }
 
     /* banner-responsive */
@@ -121,7 +188,7 @@
 
     .banner-title {
         font-size: 24px;
-         padding:0 16px 0;
+        padding: 0 16px 0;
     }
 
     .banner-content,
@@ -133,7 +200,7 @@
 
 
     .banner-description {
-        padding:0 16px 0;
+        padding: 0 16px 0;
         font-size: 14px;
     }
 }
