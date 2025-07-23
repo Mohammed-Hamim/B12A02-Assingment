@@ -120,6 +120,8 @@
 .plant-description {
     font-family: "Inter", sans-serif;
     font-size: 22px;
+    max-width: 888px;
+    margin: 0 auto;
 
 }
 
@@ -129,6 +131,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     row-gap: 30px;
+    column-gap: 20px;
 }
 
 .card {
@@ -152,6 +155,7 @@
 }
 
 .card img {
+    width: 100%;
     margin-bottom: 30px;
 
 }
@@ -197,10 +201,32 @@
 
     }
 
-
-
     .banner-description {
         padding: 0 16px 0;
         font-size: 14px;
     }
+
+    /* Plant Section  */
+    .plant-title {
+        font-size: 24px;
+    }
+
+    .plant-description {
+
+        font-size: 14px;
+
+    }
+
+    /* Card responsive */
+
+    .plant-cards {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 20px;
+        padding: 0 10px;
+    }
+
+    .card-btn {
+        padding: 19px 34px;
+    }
+
 }
