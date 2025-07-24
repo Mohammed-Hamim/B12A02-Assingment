@@ -369,12 +369,14 @@
 
 .social-links {
     gap: 24px;
+    align-items: center;
+    
 }
 
 
 
 /* Mobile devices */
-@media screen and (max-width:572px) {
+@media screen and (max-width:576px) {
 
     /* nav-section responsive */
     .nav-links {
