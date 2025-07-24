@@ -370,7 +370,7 @@
 .social-links {
     gap: 24px;
     align-items: center;
-    
+
 }
 
 
@@ -477,7 +477,7 @@
     /* join section */
     .join-section {
         margin-top: 40px;
-        padding: 110px 50px 64px 50px;
+        padding: 110px 36px 50px;
         box-sizing: border-box;
     }
 
