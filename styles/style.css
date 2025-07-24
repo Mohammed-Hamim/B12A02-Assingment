@@ -218,6 +218,95 @@
 
 }
 
+/* Latest Deal Section styling */
+.latest-deal {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.deal-title {
+    font-size: 50px;
+    font-family: "Noto Serif", serif;
+    font-weight: bold;
+}
+
+.deal-sub-title {
+    max-width: 888px;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 28px;
+    font-family: "Inter", sans-serif;
+
+}
+
+/* Deal card styles */
+
+.deal-card-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.dual-card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.card-1 {
+    border-radius: 14px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 65px;
+    background-position: center;
+
+}
+
+.card-2 {
+    border-radius: 14px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 65px;
+    background-position: center;
+
+
+}
+
+.card-3 {
+    border-radius: 14px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 130px;
+
+}
+
+.card-title {
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.card-title-2 {
+    font-family: "Noto Serif", serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.shop-now {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+
 /* Mobile devices */
 @media screen and (max-width:572px) {
 
@@ -297,6 +386,24 @@
     .plant-lover-description {
         font-size: 14px;
     }
+
+    /* Latest Deal Section */
+
+    .deal-card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 15px;
+    }
+
+    .card-3 {
+        padding: 50px 65px;
+    }
+
+    .card-title-2 {
+        font-size: 20px;
+    }
+
 
 
 }
