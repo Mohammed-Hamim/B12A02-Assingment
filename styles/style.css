@@ -368,16 +368,29 @@ body {
     font-size: 22px;
 }
 
-.footer-nav {
+.footer-nav-home {
+    flex-direction: column;
+    gap: 32px;
+}
+.footer-nav-feature {
     flex-direction: column;
     gap: 32px;
 }
 
-.footer-nav li {
+.footer-nav-home li {
+    list-style: none;
+}
+.footer-nav-feature li {
     list-style: none;
 }
 
-.footer-nav li a {
+.footer-nav-home li a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgba(107, 114, 128, 1);
+}
+.footer-nav-feature li a {
     text-decoration: none;
     font-family: "Inter", sans-serif;
     font-weight: 400;
