@@ -190,11 +190,24 @@ body {
     position: absolute;
     left: 347px;
     top: -127px;
+    animation: spin 5s linear 1s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
 }
 
 .trust-badge img {
     width: 100%;
     height: 100%;
+
 }
 
 .plant-lover-title {
